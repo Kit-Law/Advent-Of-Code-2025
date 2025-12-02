@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Src",
-    "\\Src\\Days"
+    "\\Src\\Days",
+    "\\Src\\Input"
   ],
-  "SelectedNode": "\\Src\\Main.cpp",
+  "SelectedNode": "\\Src\\Input\\Day1.txt",
   "PreviewInSolutionExplorer": false
 }
