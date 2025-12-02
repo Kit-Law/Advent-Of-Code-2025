@@ -146,6 +146,7 @@
     <ClInclude Include="Src\Days\Day7.h" />
     <ClInclude Include="Src\Days\Day8.h" />
     <ClInclude Include="Src\Days\Day9.h" />
+    <ClInclude Include="Src\InputReader.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Input\Day1.txt" />

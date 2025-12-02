@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+.vs
+
+Advent-O.236095d3

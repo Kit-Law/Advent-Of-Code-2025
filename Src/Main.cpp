@@ -15,14 +15,11 @@
 
 #define SOLUTION(day) { std::cout << #day << ": Star 1 = " << day::star1("Input/" #day ".txt") << ", Star 2 = " << day::star2("Input/" #day ".txt") << std::endl; }
 
-int main()
-{
-	try
-	{
+int main() {
+	try {
 		SOLUTION(Day2);
 	}
-	catch (std::exception& e)
-	{
+	catch (std::exception& e) {
 		std::cout << e.what();
 		return 1;
 	}
