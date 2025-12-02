@@ -1,0 +1,7 @@
+﻿  Main.cpp
+C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day1.h(53,5): warning C4297: 'Day1::star2': function assumed not to throw an exception but does
+  (compiling source file 'Src/Main.cpp')
+  C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day1.h(53,5):
+  __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+  
+  Advent-Of-Code-2025.vcxproj -> C:\Users\klawrence\source\repos\Advent-Of-Code-2025\x64\Debug\Advent-Of-Code-2025.exe

@@ -57,4 +57,42 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Input\Day1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day11.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input\Day12.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
