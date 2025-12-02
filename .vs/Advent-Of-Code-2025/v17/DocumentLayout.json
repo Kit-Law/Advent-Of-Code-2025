@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Advent-Of-Code-2025.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Advent-Of-Code-2025.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{236095D3-CD54-4092-9D84-A12E99E92605}|Advent-Of-Code-2025.vcxproj|C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Src\\Days\\Day2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{236095D3-CD54-4092-9D84-A12E99E92605}|Advent-Of-Code-2025.vcxproj|solutionrelative:Src\\Days\\Day2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{236095D3-CD54-4092-9D84-A12E99E92605}|Advent-Of-Code-2025.vcxproj|C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Input\\Day2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{236095D3-CD54-4092-9D84-A12E99E92605}|Advent-Of-Code-2025.vcxproj|solutionrelative:Input\\Day2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{236095D3-CD54-4092-9D84-A12E99E92605}|Advent-Of-Code-2025.vcxproj|C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{236095D3-CD54-4092-9D84-A12E99E92605}|Advent-Of-Code-2025.vcxproj|solutionrelative:Src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Advent-Of-Code-2025.vcxproj",
-              "DocumentMoniker": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Advent-Of-Code-2025.vcxproj",
-              "RelativeDocumentMoniker": "Advent-Of-Code-2025.vcxproj",
-              "ToolTip": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Advent-Of-Code-2025.vcxproj",
-              "RelativeToolTip": "Advent-Of-Code-2025.vcxproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000698|",
-              "WhenOpened": "2025-12-01T11:44:51.883Z",
+              "DocumentIndex": 1,
+              "Title": "Day2.txt",
+              "DocumentMoniker": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Input\\Day2.txt",
+              "RelativeDocumentMoniker": "Input\\Day2.txt",
+              "ToolTip": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Input\\Day2.txt",
+              "RelativeToolTip": "Input\\Day2.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAADjAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-02T10:15:53.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CppProperties.json",
-              "DocumentMoniker": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\CppProperties.json",
-              "RelativeDocumentMoniker": "CppProperties.json",
-              "ToolTip": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\CppProperties.json",
-              "RelativeToolTip": "CppProperties.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-01T11:44:26.889Z",
+              "DocumentIndex": 0,
+              "Title": "Day2.h",
+              "DocumentMoniker": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Src\\Days\\Day2.h",
+              "RelativeDocumentMoniker": "Src\\Days\\Day2.h",
+              "ToolTip": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Src\\Days\\Day2.h",
+              "RelativeToolTip": "Src\\Days\\Day2.h",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-02T09:52:12.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Src\\Main.cpp",
+              "RelativeDocumentMoniker": "Src\\Main.cpp",
+              "ToolTip": "C:\\Users\\klawrence\\source\\repos\\Advent-Of-Code-2025\\Src\\Main.cpp",
+              "RelativeToolTip": "Src\\Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-02T09:51:12.865Z",
               "EditorCaption": ""
             }
           ]

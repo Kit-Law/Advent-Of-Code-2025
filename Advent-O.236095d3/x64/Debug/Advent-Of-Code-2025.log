@@ -4,4 +4,23 @@ C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day1.h(53,5): warni
   C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day1.h(53,5):
   __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
   
+C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day2.h(42,29): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+  (compiling source file 'Src/Main.cpp')
+  
+C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day2.h(31,6): warning C4297: 'Day2::star1': function assumed not to throw an exception but does
+  (compiling source file 'Src/Main.cpp')
+  C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day2.h(31,6):
+  __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+  
+C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day2.h(88,50): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  (compiling source file 'Src/Main.cpp')
+  
+C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day2.h(88,45): warning C4244: 'initializing': conversion from 'double' to 'const unsigned int', possible loss of data
+  (compiling source file 'Src/Main.cpp')
+  
+C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day2.h(76,6): warning C4297: 'Day2::star2': function assumed not to throw an exception but does
+  (compiling source file 'Src/Main.cpp')
+  C:\Users\klawrence\source\repos\Advent-Of-Code-2025\Src\Days\Day2.h(76,6):
+  __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+  
   Advent-Of-Code-2025.vcxproj -> C:\Users\klawrence\source\repos\Advent-Of-Code-2025\x64\Debug\Advent-Of-Code-2025.exe

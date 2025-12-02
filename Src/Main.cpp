@@ -13,13 +13,13 @@
 #include "Days/Day11.h"
 #include "Days/Day12.h"
 
-#define SOLUTION(day) std::cout << #day << ": Star 1 = " << day::star1("Input/" #day ".txt") << ", Star 2 = " << day::star2("Input/" #day ".txt") << std::endl;
+#define SOLUTION(day) { std::cout << #day << ": Star 1 = " << day::star1("Input/" #day ".txt") << ", Star 2 = " << day::star2("Input/" #day ".txt") << std::endl; }
 
 int main()
 {
 	try
 	{
-		SOLUTION(Day1)
+		SOLUTION(Day2);
 	}
 	catch (std::exception& e)
 	{
