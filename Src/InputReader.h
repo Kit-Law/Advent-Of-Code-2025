@@ -103,6 +103,21 @@ public:
 		return lines;
 	}
 
+	inline std::vector<std::vector<unsigned char>> readNumbers() {
+		std::string line;
+		std::vector<std::vector<unsigned char>> rows;
+
+		while (std::getline(_input, line)) {
+			std::vector<unsigned char> row;
+			for (unsigned char number : line) {
+				row.push_back(number - '0');
+			}
+			rows.push_back(row);
+		}
+
+		return rows;
+	}
+
 private:
 	inline std::string getToken() {
 		std::string token;
