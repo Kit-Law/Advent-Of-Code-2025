@@ -11,10 +11,18 @@ private:
 
 	std::regex _regexPattern;
 	std::optional<const char> _delimiter;
+	std::string _escapeLine;
 
 public:
-	inline InputReader(const char* path, const char* regexPattern, std::optional<const char> delimiter = {})
-		: _input{ path }, _regexPattern{ regexPattern }, _delimiter{ delimiter } {
+	inline InputReader(const char* path,
+					   const char* regexPattern,
+		               std::optional<const char> delimiter = {},
+		               const char* escapeLine = "")
+		: _input{ path }, _regexPattern{ regexPattern }, _delimiter{ delimiter }, _escapeLine{ escapeLine } {
+	}
+
+	inline void updatePattern(const char* regexPattern) {
+		_regexPattern = std::regex(regexPattern);
 	}
 
 	inline bool empty() const { return _input.eof() && _currentLine.empty(); }
@@ -27,6 +35,12 @@ public:
 		}
 
 		std::string token = getToken();
+
+		if (token == _escapeLine) {
+			_currentLine.clear();
+			return false;
+		}
+
 		std::smatch match;
 
 		if (!std::regex_match(token, match, _regexPattern)) {
