@@ -17,7 +17,7 @@
 
 int main() {
 	try {
-		SOLUTION(Day5);
+		SOLUTION(Day6);
 	}
 	catch (std::exception& e) {
 		std::cout << e.what();

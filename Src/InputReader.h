@@ -132,6 +132,53 @@ public:
 		return rows;
 	}
 
+	template <typename T>
+	inline void parseLine(std::vector<T>& data) {
+		std::string line;
+		
+		if (std::getline(_input, line)) {
+			const char* current = line.c_str();
+			const char* end = current + line.length();
+
+			while (current < end) {
+				char* endptr;
+
+				T value;
+				if constexpr (std::is_same_v<T, std::string>) {
+					size_t pos = _currentLine.find(*_delimiter);
+					if (pos == std::string::npos) {
+						value = std::string(current, end);
+						current = end;
+					}
+					else {
+						value = line.substr(0, pos);
+						current = pos;
+					}
+				}
+				else if constexpr (std::is_same_v<T, char>) {
+					value = *current;
+					current++;
+					for (; *current == ' '; current++) {}
+				}
+				else if constexpr (std::is_integral_v<T>) {
+					value = std::strtol(current, &endptr, 10);
+					
+					if (endptr == current) {
+						return;
+					}
+
+					current = endptr;
+				}
+				else {
+					//static_assert(false, "Unsupported type in parseLine");
+					return;
+				}
+
+				data.push_back(value);
+			}
+		}
+	}
+
 private:
 	inline std::string getToken() {
 		std::string token;
